@@ -1,0 +1,29 @@
+.product {
+  border: 1px solid #ccc;
+  padding: 18px 15px;
+  text-align: center;
+}
+.product p {
+  font-size: 20px;
+}
+
+.product img {
+  width: 150px;
+  height: 170px;
+}
+
+.addtocartBtn {
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(95, 95, 175);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.addtocartBtn:hover {
+  background-color: rgb(110, 110, 174);
+  transform: scale(1.1);
+}
